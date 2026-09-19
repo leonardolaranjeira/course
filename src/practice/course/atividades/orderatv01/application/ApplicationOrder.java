@@ -1,10 +1,10 @@
-package practice.course.atividades.pedidoatv01.application;
+package practice.course.atividades.orderatv01.application;
 
-import practice.course.atividades.pedidoatv01.entities.Client;
-import practice.course.atividades.pedidoatv01.entities.Order;
-import practice.course.atividades.pedidoatv01.entities.OrderItem;
-import practice.course.atividades.pedidoatv01.entities.Product;
-import practice.course.atividades.pedidoatv01.enums.OrderStatus;
+import practice.course.atividades.orderatv01.entities.Client;
+import practice.course.atividades.orderatv01.entities.Order;
+import practice.course.atividades.orderatv01.entities.OrderItem;
+import practice.course.atividades.orderatv01.entities.Product;
+import practice.course.atividades.orderatv01.enums.OrderStatus;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

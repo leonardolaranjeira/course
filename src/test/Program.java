@@ -1,16 +1,16 @@
-package ztest;
+package test;
 
-public class Personagem {
+public class Program {
     private String nome;
     private int nivel;
 
     // O segredo está em retornar o próprio objeto com 'return this'
-    public Personagem setNome(String nome) {
+    public Program setNome(String nome) {
         this.nome = nome;
         return this;
     }
 
-    public Personagem setNivel(int nivel) {
+    public Program setNivel(int nivel) {
         this.nivel = nivel;
         return this;
     }
@@ -20,7 +20,7 @@ public class Personagem {
     }
 
     public static void main(String[] args) {
-        Personagem jogador = new Personagem();
+        Program jogador = new Program();
 
         // Encadeamento de métodos (Method Chaining)
         jogador.setNome("Guerreiro")

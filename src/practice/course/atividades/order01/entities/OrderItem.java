@@ -1,4 +1,4 @@
-package practice.course.atividades.orderatv01.entities;
+package practice.course.atividades.order01.entities;
 
 public class OrderItem {
     private Integer quantity;

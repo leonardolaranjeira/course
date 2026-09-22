@@ -1,6 +1,6 @@
 package practice.course.application;
 
-import utils.CurrencyConverter;
+import practice.course.utils.CurrencyConverter;
 
 import java.util.Locale;
 import java.util.Scanner;

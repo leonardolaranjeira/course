@@ -1,4 +1,4 @@
-package practice.course.atividades.orderatv01.entities;
+package practice.course.atividades.order01.entities;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

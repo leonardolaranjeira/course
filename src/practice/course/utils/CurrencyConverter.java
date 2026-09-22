@@ -1,4 +1,4 @@
-package utils;
+package practice.course.utils;
 
 public class CurrencyConverter {
 

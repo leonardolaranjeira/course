@@ -1,6 +1,6 @@
-package practice.course.atividades.orderatv01.entities;
+package practice.course.atividades.order01.entities;
 
-import practice.course.atividades.orderatv01.enums.OrderStatus;
+import practice.course.atividades.order01.enums.OrderStatus;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

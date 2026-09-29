@@ -1,6 +1,5 @@
 package practice.course.basics.application;
 
-import practice.course.atividades.order01.entities.Order;
 import practice.course.atividades.order01.enums.OrderStatus;
 
 public class ProgramEnum {

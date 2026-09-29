@@ -3,6 +3,7 @@ package practice.course.atividades.exception01.application;
 import practice.course.atividades.exception01.model.entities.Account;
 import practice.course.atividades.exception01.model.exceptions.DomainException;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -42,9 +43,17 @@ public class Program {
             } catch (DomainException e) {
                 System.out.println(e.getMessage() + "Try Again!");
 
+            } catch (InputMismatchException e) {
+                System.out.print("Input error: Invalid format. Please use '.' for decimals. Try again!");
+                sc.nextLine();
+
             } catch (RuntimeException e) {
-                System.out.println("\nUnexpected error, Try again!");
+                System.out.print("Unexpected error, Try again!");
+                sc.nextLine();
+
             }
         }
+
+        sc.close();
     }
 }
